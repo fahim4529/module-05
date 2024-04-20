@@ -1,0 +1,31 @@
+.parent-element{
+ width:500px;
+ height:300px;
+ /* border:3px solid red; */
+ margin:30px; 
+  position: relative;
+  background-color:green;
+ border-radius: 
+ 
+}
+.parent-element .child{
+    width:100px;
+    height:100px;
+    background-color: pink;
+    border-radius:50%;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    top:0;
+    left:0;
+    margin:auto;
+    background-color:red;
+}
+.parent-element .lathi{
+    width:10px;
+    height:500px;
+    background-color: black;
+    position:absolute;
+    left:0;
+    top:0;
+}
